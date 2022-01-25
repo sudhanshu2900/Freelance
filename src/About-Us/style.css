@@ -1,0 +1,304 @@
+#contentDiv{
+    margin:50px 0 50px 0;
+}
+#contentDiv h1{
+    font-size: 94px;
+    font-weight: bold;
+    color: #414141;
+}
+#contentDiv p{
+    font-size: 14px;
+    color: #A0ABB8;
+    line-height: 28px;
+    padding-top: 20px;
+}
+#contentDiv h5{
+    padding-top: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #414141;
+}
+#contentDiv h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #414141;
+    line-height: 68px;
+}
+
+#photoDiv{
+    margin:50px 0 50px 0;
+}
+#photoDiv #img1{
+    border-radius: 140px 140px 140px 0;
+    
+}
+#photoDiv #lightColorDiv{
+    background-color: #C8D8E4;
+    width: 60px;
+    height: 80px;
+    border-radius: 35px 0 35px 35px;
+    margin: 20px 0 0 -80px;
+}
+#photoDiv #darkColorDiv{
+    background-color: #093946;
+    width: 140px;
+    height: 100px;
+    border-radius: 0 55px 55px 55px;
+    margin-top: -60px;
+}
+#photoDiv #img2{
+    margin: -40px 0 0 100px;
+    height: 130px;
+    width: 130px;
+}
+
+#photoDiv2 #img3{
+    border-radius: 140px 0 140px 140px;
+}
+#photoDiv2 #lightDiv{
+    width: 60px;
+    height: 160px;
+    border-radius: 35px 35px 0 35px;
+    background-color: #C8D8E4;
+    margin: -230px 0 0 350px ;
+}
+#contentDiv2 p{
+    font-size: 14px;
+    color: #A0ABB8;
+    line-height: 28px;
+    padding-top: 20px;
+}
+#contentDiv2 h5{
+    padding-top: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #414141;
+}
+#contentDiv2 h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #414141;
+    line-height: 68px;
+}
+
+.bgWithText {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+}
+.centered h2{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 68px;
+    padding-bottom: 40px;
+}
+.centered button{
+    background-color: #093946;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+@media (max-width:850px) {
+    #contentDiv h1{
+        font-size: 70px;
+    }
+    #contentDiv p{
+        line-height: 25px;
+    }
+    #contentDiv h5{
+        font-weight: 600;
+    }
+    #contentDiv h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #photoDiv #img1{
+        width: 360px;
+    }
+
+    #photoDiv2 #img3{
+        width: 240px;
+        margin-top: 100px;
+    }
+    #photoDiv2 #lightDiv{
+        margin: -210px 0 0 260px;
+    }
+    #contentDiv2 h5{
+        font-weight: 600;
+    }
+    #contentDiv2 h3{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    #contentDiv2 p{
+        line-height: 23px;
+    }
+    .bgWithText .centered h2{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:500px) {
+    #contentDiv, #contentDiv2{
+        text-align: center;
+    }
+    #photoDiv #img1{
+        width: 300px;
+        margin-left: 80px;
+        border-radius: 100px 100px 100px 0;
+    }
+    #photoDiv #lightColorDiv{
+        margin-left: 0px;
+    }
+    #photoDiv #darkColorDiv{
+        margin-left: 80px;
+    }
+    #photoDiv #img2{
+        margin-left: 170px;
+    }
+    #photoDiv2 #img3{
+        width: 200px;
+        padding-bottom: 50px;
+        margin-left: 40px;
+    }
+    .bgWithText .centered h5{
+        font-size: 20px;
+    }
+}
+
+
+/* 2nd Page */
+.upperPart{
+    background-color: #C8D8E4;
+    padding: 90px 0 20px 0;
+}
+#contDiv h1{
+    text-align: center;
+    font-size: 94px;
+    font-weight: bold;
+    line-height: 120px;
+    color: #414141;
+}
+#contDiv p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    color: #414141;
+}
+
+#imgDiv1{
+    margin-top: -40px;
+}
+#imgDiv2{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+
+.infoCard{
+    padding: 0 30px 30px 30px;
+    text-align: center;
+    width: 500px;
+    background-color: #f2f2f2;
+    margin: auto;
+    border-radius: 8px;
+}
+.infoCard h1{
+    padding: 20px 0 20px 0;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 68px;
+    color: #414141;
+}
+.infoCard p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #414141;
+}
+.iconDiv{
+    background-color: #093946;
+    padding: 30px 20px 30px 20px;
+    width: 110px;
+    margin: auto;
+    border-radius: 0 0 8px 8px;
+}
+
+#profile{
+    padding: 50px 0 50px 0;
+}
+#ourCard{
+    display: flex;
+    justify-content: center;
+}
+.mycard{
+    background-color: #093946;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.mycard img{
+    padding-bottom: 20px;
+    width: 150px;
+}
+.mycard p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    color: white;
+}
+.mycard #designation{
+    color: #C8D8E4;
+}
+
+@media (max-width:800px) {
+    #midDiv #imgDiv1 #pic{
+        width: 200px;
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    #midDiv #imgDiv1 #dot{
+        width: 100px;
+    }
+    #contDiv h1{
+        font-size: 60px;
+    }
+    #midDiv #imgDiv2 img{
+        height: 250px;
+    }
+    .mycard p{
+        font-size: 20px
+    }
+}
+
+@media (max-width:500px) {
+    #midDiv #imgDiv1 #pic{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    #midDiv #imgDiv2 img{
+        margin-right: 40px;
+    }
+    .infoCard{
+        width: auto;
+    }
+}

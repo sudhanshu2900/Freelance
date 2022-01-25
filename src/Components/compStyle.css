@@ -1,0 +1,225 @@
+nav{
+    padding: 0 60px 0 60px;
+    background-color: #C8D8E4;
+    height: 140px;
+}
+
+#navbar{
+    height: 140px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width:200px;
+    letter-spacing: 1px;
+}
+.logo h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #414141;
+}
+
+
+.menu{
+    height: 140px;
+    width: 846px;
+    padding: 0 200px 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.menu ul{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+}
+#navbar .menu ul div{
+    display: none;
+}
+.menu ul li{
+    margin-left: 30px;
+    color: gray;
+}
+.menu ul li:hover{
+    margin-left: 30px;
+    border-bottom: 2px solid #414141;
+    color: #414141;
+    cursor: pointer;
+}
+
+
+.button{
+    height: 140px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    background-color: #C8D8E4;
+    padding: 15px 20px 15px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #414141;
+    border: 1px solid #414141;
+    border-radius: 5px;
+}
+
+@media (max-width:850px) {
+    nav{
+        padding: 0 10px 0 10px;
+    }
+    #navbar .button{
+        margin-left: -150px;
+    }
+    #navbar .button button{
+        font-size: 11px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    nav{
+        padding: 0 10px 0 10px;
+    }
+    #navbar .menu{
+        margin-left: -250px;
+    }
+    #navbar .button{
+        margin-left: -170px;
+    }
+    #navbar .button button{
+        font-size: 11px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* Footer */
+
+#footerCont{
+    padding: 100px 0 100px 0;
+}
+
+
+#firstDiv #bottomLogo img{
+    margin-left: -10px;
+}
+#firstDiv #bottomLogo h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #414141;
+    margin-left: 0px;
+}
+#firstDiv p{
+    color: #A0ABB8;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 20px 0 0 5px;
+}
+
+#firstDiv #middleMenu{
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    color: #414141;
+    padding-top: 40px;
+    line-height: 30px;
+}
+#firstDiv #middleMenu ul{
+    list-style: none;
+    margin-left: -40px;
+}
+#firstDiv #middleMenu ul li{
+    margin-right: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#firstDiv #socialLogo{
+    display: flex;
+    justify-content: end;
+    padding-top: 40px;
+}
+#firstDiv #socialLogo ul{
+    list-style: none;
+    display: flex;
+}
+
+#secondDiv{
+    padding: 50px 0 0 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #A0ABB8;
+}
+
+#secondDiv #lastList{
+    display: flex;
+    justify-content: end;
+}
+#secondDiv #lastList ul{
+    list-style: none;
+    display: flex;
+}
+#secondDiv #lastList ul li{
+    margin-left: 30px;
+}
+
+@media (max-width:500px){
+    #footerCont{
+        padding: 20px;
+        background-color: #fff;
+    }
+    #firstDiv #socialLogo{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        margin-left: -40px;
+    }
+    #secondDiv{
+        text-align: center;
+    }
+    #secondDiv p{
+        margin-left: -50px;
+    }
+    #secondDiv #lastList{
+        display:block;
+    }
+}
+
+@media (max-width:400px){
+    #firstDiv #socialLogo{
+        margin-left: -15px;
+    }
+    #secondDiv p{
+        margin-left: 0px;
+    }
+}
+
+
+/* Profile Card */
+.mycard{
+    background-color: #093946;
+    padding: 30px;
+    text-align: center;
+    width: 390px;
+}
+.mycard img{
+    padding-bottom: 20px;
+}
+.mycard p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+}
+.mycard #designation{
+    color: #C8D8E4;
+}
