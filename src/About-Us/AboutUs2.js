@@ -40,7 +40,7 @@ function AboutUs2() {
                                 <p style={{color:'#C8D8E4', fontSize: '22px'}}>Founder</p>
                             </div>
                             <div className="flipCardBack"> 
-                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <p>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
                                 <div className="socialIcons">
                                     <AiFillFacebook size={35}/>
                                     <AiFillLinkedin size={35}/>
@@ -59,7 +59,7 @@ function AboutUs2() {
                                 <p style={{color:'#C8D8E4', fontSize: '22px'}}>Co-Founder</p>
                             </div>
                             <div className="flipCardBack"> 
-                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <p>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
                                 <div className="socialIcons">
                                     <AiFillFacebook size={35}/>
                                     <AiFillLinkedin size={35}/>
@@ -78,7 +78,7 @@ function AboutUs2() {
                                 <p style={{color:'#C8D8E4', fontSize: '22px'}}>CFO</p>
                             </div>
                             <div className="flipCardBack"> 
-                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <p>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
                                 <div className="socialIcons">
                                     <AiFillFacebook size={35}/>
                                     <AiFillLinkedin size={35}/>
@@ -99,7 +99,7 @@ function AboutUs2() {
                                 <p style={{color:'#C8D8E4', fontSize: '22px'}}>Design Lead</p>
                             </div>
                             <div className="flipCardBack"> 
-                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <p>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
                                 <div className="socialIcons">
                                     <AiFillFacebook size={35}/>
                                     <AiFillLinkedin size={35}/>
@@ -118,7 +118,7 @@ function AboutUs2() {
                                 <p style={{color:'#C8D8E4', fontSize: '22px'}}>Co-Founder</p>
                             </div>
                             <div className="flipCardBack"> 
-                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <p>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
                                 <div className="socialIcons">
                                     <AiFillFacebook size={35}/>
                                     <AiFillLinkedin size={35}/>
@@ -137,7 +137,7 @@ function AboutUs2() {
                                 <p style={{color:'#C8D8E4', fontSize: '22px'}}>Marketing Head</p>
                             </div>
                             <div className="flipCardBack"> 
-                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <p>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
                                 <div className="socialIcons">
                                     <AiFillFacebook size={35}/>
                                     <AiFillLinkedin size={35}/>

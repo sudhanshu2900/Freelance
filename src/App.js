@@ -13,9 +13,9 @@ function App() {
       {/* <Header/> */}
       {/* <Footer/> */}
       {/* <AboutUs1/> */}
-      <AboutUs2/>
+      {/* <AboutUs2/> */}
       {/* <CommGuide/> */}
-      {/* <Privacy/> */}
+      <Privacy/>
     </>
   );
 }

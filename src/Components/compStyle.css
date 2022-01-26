@@ -88,11 +88,18 @@ nav{
     nav{
         padding: 0 10px 0 10px;
     }
+    #navbar .logo{
+        margin-left: -60px;
+    }
     #navbar .menu{
-        margin-left: -250px;
+        margin-left: -500px;
+    }
+    #navbar .menu ul li{
+        font-size: 11px;
+        margin-left: 12px;
     }
     #navbar .button{
-        margin-left: -170px;
+        margin-left: -180px;
     }
     #navbar .button button{
         font-size: 11px;
@@ -204,22 +211,3 @@ nav{
     }
 }
 
-
-/* Profile Card */
-.mycard{
-    background-color: #093946;
-    padding: 30px;
-    text-align: center;
-    width: 390px;
-}
-.mycard img{
-    padding-bottom: 20px;
-}
-.mycard p{
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-}
-.mycard #designation{
-    color: #C8D8E4;
-}

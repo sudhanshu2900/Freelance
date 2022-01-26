@@ -152,6 +152,10 @@
     .bgWithText .centered h2{
         font-size: 35px;
     }
+    .bgWithText img{
+        width: 790px;
+        height: 600px;
+    }
 }
 
 @media (max-width:500px) {
@@ -178,7 +182,16 @@
         margin-left: 40px;
     }
     .bgWithText .centered h5{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .bgWithText .centered h2{
+        font-size: 22px;
+        line-height: 35px;
+        margin-top: -50px
+    }
+    .bgWithText img{
+        width: 420px;
+        height: 450px;
     }
 }
 
@@ -256,7 +269,6 @@
     width: 300px;
     height: 350px;
     perspective: 1000px;
-   
 }
   
 .flipCardInner {
@@ -267,6 +279,7 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);    
+    border-radius:10px;
 }
   
 .flipCard:hover .flipCardInner {
@@ -296,6 +309,11 @@
     font-size:14px;
     transform: rotateY(180deg);
 }
+.flipCardBack p{
+    padding:50px 20px 0 20px;
+    line-height:28px;
+    font-size:14px;
+}
 .socialIcons{
     margin-top: 70px;
 }
@@ -315,8 +333,10 @@
     #midDiv #imgDiv2 img{
         height: 250px;
     }
-    .mycard p{
-        font-size: 20px
+    .flipCardBack p{
+        padding:20px 20px 0 20px;
+        line-height:25px;
+        font-size:12px;
     }
 }
 
