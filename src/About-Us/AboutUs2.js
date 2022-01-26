@@ -1,7 +1,9 @@
 import React from 'react';
-import '../About-Us/style.css';
+import '../About-Us/AboutUsStyle.css';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
+import { AiFillFacebook, AiFillLinkedin, AiFillTwitterSquare, AiOutlineLinkedin } from 'react-icons/ai';
+
 
 function AboutUs2() {
   return (
@@ -30,47 +32,119 @@ function AboutUs2() {
         <div id='profile' className="container">
             <div id='profileCards' className="row">
                 <div id='ourCard' className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="mycard">
-                        <img src='./Photo/Profile5.png' alt='profilePic' />
-                        <p>Jason</p>
-                        <p id='designation'>Founder</p>
+                    <div className="flipCard">
+                        <div className="flipCardInner">
+                            <div className="flipCardFront">
+                                <img src='./Photo/Profile5.png' alt='profile' style={{width:'180px',height:'180px', borderRadius:'50%', marginTop:'40px'}} />
+                                <p style={{paddingTop:'20px',fontSize: '22px'}}>Jason</p>
+                                <p style={{color:'#C8D8E4', fontSize: '22px'}}>Founder</p>
+                            </div>
+                            <div className="flipCardBack"> 
+                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <div className="socialIcons">
+                                    <AiFillFacebook size={35}/>
+                                    <AiFillLinkedin size={35}/>
+                                    <AiFillTwitterSquare size={35}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id='ourCard' className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="mycard">
-                        <img src='./Photo/Profile1.png' alt='profilePic' />
-                        <p>Chanise</p>
-                        <p id='designation'>Co-Founder</p>
+                    <div className="flipCard">
+                        <div className="flipCardInner">
+                            <div className="flipCardFront">
+                                <img src='./Photo/Profile1.png' alt='profile' style={{width:'180px',height:'180px', borderRadius:'50%', marginTop:'40px'}} />
+                                <p style={{paddingTop:'20px',fontSize: '22px'}}>Chanise</p>
+                                <p style={{color:'#C8D8E4', fontSize: '22px'}}>Co-Founder</p>
+                            </div>
+                            <div className="flipCardBack"> 
+                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <div className="socialIcons">
+                                    <AiFillFacebook size={35}/>
+                                    <AiFillLinkedin size={35}/>
+                                    <AiFillTwitterSquare size={35}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id='ourCard' className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="mycard">
-                        <img src='./Photo/Profile2.png' alt='profilePic' />
-                        <p>Rosalina</p>
-                        <p id='designation'>CFO</p>
+                    <div className="flipCard">
+                        <div className="flipCardInner">
+                            <div className="flipCardFront">
+                                <img src='./Photo/Profile2.png' alt='profile' style={{width:'180px',height:'180px', borderRadius:'50%', marginTop:'40px'}} />
+                                <p style={{paddingTop:'20px',fontSize: '22px'}}>Rosalina</p>
+                                <p style={{color:'#C8D8E4', fontSize: '22px'}}>CFO</p>
+                            </div>
+                            <div className="flipCardBack"> 
+                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <div className="socialIcons">
+                                    <AiFillFacebook size={35}/>
+                                    <AiFillLinkedin size={35}/>
+                                    <AiFillTwitterSquare size={35}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="row">
                 <div id='ourCard' className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="mycard">
-                        <img src='./Photo/Profile3.png' alt='profilePic' />
-                        <p>Mark</p>
-                        <p id='designation'>Design Lead</p>
+                    <div className="flipCard">
+                        <div className="flipCardInner">
+                            <div className="flipCardFront">
+                                <img src='./Photo/Profile3.png' alt='profile' style={{width:'180px',height:'180px', borderRadius:'50%', marginTop:'40px'}} />
+                                <p style={{paddingTop:'20px',fontSize: '22px'}}>Mark</p>
+                                <p style={{color:'#C8D8E4', fontSize: '22px'}}>Design Lead</p>
+                            </div>
+                            <div className="flipCardBack"> 
+                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <div className="socialIcons">
+                                    <AiFillFacebook size={35}/>
+                                    <AiFillLinkedin size={35}/>
+                                    <AiFillTwitterSquare size={35}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id='ourCard' className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="mycard">
-                        <img src='./Photo/Profile4.png' alt='profilePic' />
-                        <p>Melina</p>
-                        <p id='designation'>Co-Founder</p>
+                    <div className="flipCard">
+                        <div className="flipCardInner">
+                            <div className="flipCardFront">
+                                <img src='./Photo/Profile4.png' alt='profile' style={{width:'180px',height:'180px', borderRadius:'50%', marginTop:'40px'}} />
+                                <p style={{paddingTop:'20px',fontSize: '22px'}}>Melina</p>
+                                <p style={{color:'#C8D8E4', fontSize: '22px'}}>Co-Founder</p>
+                            </div>
+                            <div className="flipCardBack"> 
+                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <div className="socialIcons">
+                                    <AiFillFacebook size={35}/>
+                                    <AiFillLinkedin size={35}/>
+                                    <AiFillTwitterSquare size={35}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id='ourCard' className="col-lg-4 col-md-4 col-sm-12">
-                    <div className="mycard">
-                        <img src='./Photo/Profile5.png' alt='profilePic' />
-                        <p>Rodney</p>
-                        <p id='designation'>Marketing Head</p>
+                    <div className="flipCard">
+                        <div className="flipCardInner">
+                            <div className="flipCardFront">
+                                <img src='./Photo/Profile5.png' alt='profile' style={{width:'180px',height:'180px', borderRadius:'50%', marginTop:'40px'}} />
+                                <p style={{paddingTop:'20px',fontSize: '22px'}}>Rodney</p>
+                                <p style={{color:'#C8D8E4', fontSize: '22px'}}>Marketing Head</p>
+                            </div>
+                            <div className="flipCardBack"> 
+                                <p style={{padding:'50px 20px 0 20px', lineHeight:'28px', fontSize:'14px'}}>Far far away, behind the word mountains,<br/> far from the countries Vokalia and<br/> Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove<br/> right at the coast of the Semantics</p> 
+                                <div className="socialIcons">
+                                    <AiFillFacebook size={35}/>
+                                    <AiFillLinkedin size={35}/>
+                                    <AiFillTwitterSquare size={35}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,7 +156,7 @@ function AboutUs2() {
                     <img src='./Photo/Work.png' alt='workIcon' width={'50px'}/>
                 </div>
                 <h1>Who we are</h1>
-                <p style={{paddingBottom:'30px'}}>Far far away, behind the word mountains, far from the<br/> countries Vokalia he blind texts. Separated they live in<br/> Bookmarksgrove right at the coast of the Semantics</p>
+                <p style={{paddingBottom:'35px'}}>Far far away, behind the word mountains, far from the<br/> countries Vokalia he blind texts. Separated they live in<br/> Bookmarksgrove right at the coast of the Semantics</p>
                 <p>Far far away, behind the word mountains, far from the<br/> countries Vokalia and Consonantia, there live the blind texts.<br/> Separated they live in Bookmarksgrove right at the coast of<br/> the Semantics</p>
             </div>
         </div>
